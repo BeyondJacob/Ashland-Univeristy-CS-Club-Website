@@ -2,12 +2,20 @@
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  font-family: 'Source Sans Pro',sans-serif;
 }
 footer > div {
   display: flex;
   flex-direction: column;
 }
+
+
+/* Footer Links */
+footer > div a {
+  text-decoration: none;
+}
+
 
 /* Footer Navigation */
 .footer-nav {
@@ -17,5 +25,5 @@ footer > div {
 
 /* Footer Logos */
 .footer-logos {
-
+  width: 12%;
 }

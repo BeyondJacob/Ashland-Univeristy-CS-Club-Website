@@ -8,31 +8,32 @@ class Footer extends React.Component {
           <footer>
             <div className="footer-nav">
               <h3>About Us</h3>
-              <p># Values and Mission</p>
-              <p># Faculty Sponsor</p>
-              <p># Member Directory</p>
-              <p># Contact Us</p>
+              <p><a href=""># Values and Mission</a></p>
+              <p><a href=""># Faculty Sponsor</a></p>
+              <p><a href=""># Member Directory</a></p>
+              <p><a href=""># Contact Us</a></p>
             </div>
             <div className="footer-nav">
               <h3>Teams</h3>
-              <p># Competitive Programmings</p>
-              <p># Data Science</p>
-              <p># Mobile Application Devleopment</p>
-              <p># Web Development</p>
+              <p><a href=""># Competitive Programming</a></p>
+              <p><a href=""># Data Science</a></p>
+              <p><a href=""># Mobile Application Devleopment</a></p>
+              <p><a href=""># Web Development</a></p>
             </div>
             <div className="footer-nav">
               <h3>Porfolio</h3>
-              <p># Club Showcase</p>
-              <p># Personal Showcase</p>
+              <p><a href=""># Club Showcase</a></p>
+              <p><a href=""># Personal Showcase</a></p>
             </div>
             <div className="footer-nav">
               <h3>Join</h3>
-              <p># Why Join?</p>
-              <p># Member Sign-up</p>
-              <p># Discord</p>
+              <p><a href=""># Why Join?</a></p>
+              <p><a href=""># Member Sign-up</a></p>
+              <p><a href="https://discord.gg/VnRnU5MKmw" target="_blank"># Discord</a></p>
             </div>
             <div className="footer-logos">
-
+              <img src="Assets/Logos/AU/ACMLogoOne.svg" alt="AU Logo" width="60%"/>
+              <img src="Assets/Logos/AU/AUwithEagleLogoOne.svg" alt="ACM Logo"/>
             </div>
           </footer>
         </>
