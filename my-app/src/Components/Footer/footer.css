@@ -1,0 +1,21 @@
+/* Main Footer Props */
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Footer Navigation */
+.footer-nav {
+
+}
+
+
+/* Footer Logos */
+.footer-logos {
+
+}
