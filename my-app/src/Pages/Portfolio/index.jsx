@@ -8,7 +8,7 @@ function PortfolioPage() {
     <div className="App">
       <TopNav />
       <div class="main-content">
-
+        <h1>Portfolio Page!</h1>
       </div>
       <Footer />
     </div>

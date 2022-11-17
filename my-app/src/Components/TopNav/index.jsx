@@ -1,23 +1,33 @@
 import React from 'react';
 import './topnav.css'
-import { Link } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 class TopNav extends React.Component {
   render(){
       return (
         <>
           <header>
-            <Link to="./Pages/"><img src="Assets/Logos/AU/AUACMOfficialLogo.svg" alt="AU ACM Logo"/></Link>
             <nav>
               <ul>
-                <Link to="./Pages/About">About Us</Link>
-                <Link to="./Pages/Teams">Teams</Link>
-                <Link to="./Pages/Portfolio">Portfolio</Link>
-                <Link to="./Pages/Join">Join Us</Link>
+                <li>
+                  <Link to="/Home">Home</Link>
+                </li>
+                <li>
+                  {/* Purposely broken for demo */}
+                  <Link to="/Abouts">About Us</Link>
+                </li>
+                <li>
+                  <Link to="/Teams">Teams</Link>
+                </li>
+                <li>
+                  <Link to="/Portfolio">Portfolio</Link>
+                </li>
+                <li>
+                  <Link to="/Join">Join</Link>
+                </li>
               </ul>
             </nav>
           </header>
-        {/* This is the alias of BrowserRouter i.e. Router */}
         </>
       )
   }

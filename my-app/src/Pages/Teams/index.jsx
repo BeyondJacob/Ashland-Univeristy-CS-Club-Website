@@ -8,7 +8,7 @@ function TeamPage() {
     <div className="App">
       <TopNav />
       <div class="main-content">
-
+        <h1>Teams Page!</h1>
       </div>
       <Footer />
     </div>

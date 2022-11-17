@@ -1,15 +1,17 @@
 import React from 'react';
-import './aboutus.css';
+import './error.css';
 import Footer from '../../Components/Footer';
 import TopNav from '../../Components/TopNav';
 
-const AboutPage = () => {
+const NoPage = () => {
   return (
     <>
       <div className="App">
         <TopNav />
         <div class="main-content">
-
+          <h1>404</h1>
+          <h2>The page you discovered, doesn't exist or is under construction!</h2>
+          <p>Let us know about this error in our <a href='https://discord.gg/VnRnU5MKmw'>Discord</a>!</p>
         </div>
         <Footer />
       </div>
@@ -17,4 +19,4 @@ const AboutPage = () => {
   )
 };
 
-export default AboutPage;
+export default NoPage;

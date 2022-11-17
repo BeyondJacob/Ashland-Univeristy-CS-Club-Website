@@ -8,7 +8,7 @@ function JoinPage() {
     <div className="App">
       <TopNav />
       <div class="main-content">
-
+        <h1>Join Page</h1>
       </div>
       <Footer />
     </div>

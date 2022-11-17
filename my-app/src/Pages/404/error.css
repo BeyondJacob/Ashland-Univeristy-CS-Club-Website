@@ -1,0 +1,13 @@
+.main-content {
+  border: 4px rgba(0, 0, 0, 0.181);
+  border-style: solid;
+  padding: 3rem;
+  border-radius: 20px;
+}
+
+
+/* Discord Link Styling */
+div > div > p > a {
+  cursor: pointer;
+  text-decoration: none;
+}
