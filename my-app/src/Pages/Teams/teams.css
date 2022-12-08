@@ -7,10 +7,6 @@
 	        animation: gradient 15s ease infinite;
 	height: auto;
 }
-/* .team-bg:hover {
-  -webkit-animation: gradient 12s ease infinite;
-  animation: gradient 12s ease infinite;
-} */
 @-webkit-keyframes gradient {
 	0% {
 		background-position: 0% 50%;
@@ -32,4 +28,8 @@
 	100% {
 		background-position: 0% 50%;
 	}
+}
+
+.main-content-topic {
+	height: 40rem;
 }

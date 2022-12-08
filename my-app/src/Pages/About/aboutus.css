@@ -15,7 +15,7 @@
 /* Faculty Card */
 .about-staffcard-faculty {
   display: flex;
-  flex-direction: r;
+  flex-direction: row;
   margin-top: 3rem;
   width: 100%;
 }
@@ -78,4 +78,15 @@
   max-width: 100%;
   width: 100%;
   border-radius: 12px;
+}
+
+
+.SectionTwo-Header {
+  background-color: #CC9827;
+  border-radius: 12px;
+  margin: auto 0;
+  margin-top: 4rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }

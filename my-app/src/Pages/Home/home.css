@@ -2,3 +2,28 @@
   margin: 0 auto;
   width: 75%;
 }
+
+/* Slide CSS */
+.each-slide-effect > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  height: 350px;
+}
+
+.each-slide-effect span {
+  padding: 20px;
+  font-size: 20px;
+  background: #efefef;
+  text-align: center;
+}
+
+
+/* Google Calendar */
+.home-gc-button {
+  width: auto;
+  height: auto;
+  text-decoration: none;
+  
+}

@@ -27,9 +27,11 @@ function AboutPage() {
 
       {/* Section Two */}
       <div className='App'>
-
+        <div className='SectionTwo-Header'>
+          <h1>Meet the Staff</h1>
+          <h3>Natural leaders elected by peers. Performing actions that affects the entire campus and innovative future.</h3>
+        </div>  
       </div>
-      <h1>Meet the Staff</h1>
 
       {/* Faculty Sponsor */}
       <div className='App'>
@@ -38,7 +40,7 @@ function AboutPage() {
           <div className='about-img-placeholder'></div>
           <div>
             <div className='about-staffcard-content'>
-              <StaffCard name='Selvanayaki Kolandapalayam Shanmugam, Ph.D.' status='Assistant Professor' major='Computer Science' gradDate='2021 - Present'/>
+              <StaffCard url='https://www.ashland.edu/faculty/selvanayaki-kolandapalayam-shanmugam-phd' name='Selvanayaki Kolandapalayam Shanmugam, Ph.D.' status='Assistant Professor' major='Computer Science' gradDate='2021 - Present'/>
               {/* Technology Stack */}
               <div className='about-techstack'>
                 <img src={ TECHNOLOGIES.JSLogo } 
@@ -67,7 +69,7 @@ function AboutPage() {
             {/* Img of person */}
             <div className='about-img-placeholder'></div>
             <div className='about-staffcard-content'>
-              <StaffCard name='Jacob Owens' status='President' major='Computer Science' gradDate='Class of 2023'/>
+              <StaffCard url='https://github.com/BeyondJacob' name='Jacob Owens' status='President' major='Computer Science' gradDate='Class of 2023'/>
               {/* Technology Stack */}
               <div className='about-techstack'>
                 <img src={ TECHNOLOGIES.AWSLogo } 
@@ -89,7 +91,7 @@ function AboutPage() {
             {/* Img of person */}
             <div className='about-img-placeholder'></div>
             <div className='about-staffcard-content'>
-              <StaffCard name='Amar Sapcanin' status='Vice President' major='Computer Science' gradDate='Class of 2023'/>
+              <StaffCard url='https://www.linkedin.com/in/amarsapcanin?miniProfileUrn=urn%3Ali%3Afs_miniProfile%3AACoAACrgZcIB5qOLPWn7Ut2RQwInmzmnHb48COc&lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B0Up6u8dnScqi156kl0czzQ%3D%3D' name='Amar Sapcanin' status='Vice President' major='Computer Science' gradDate='Class of 2023'/>
               {/* Technology Stack */}
               <div className='about-techstack'>
                 <img src={ TECHNOLOGIES.JSLogo } 
@@ -111,7 +113,7 @@ function AboutPage() {
             {/* Img of person */}
             <div className='about-img-placeholder'></div>
             <div className='about-staffcard-content'>
-              <StaffCard name='Katie Scheutzow' status='Treasurer' major='Computer Science' gradDate='Class of 2024'/>
+              <StaffCard url='https://www.twitch.tv/katie_bin/about' name='Katie Scheutzow' status='Treasurer' major='Computer Science' gradDate='Class of 2024'/>
               {/* Technology Stack */}
               <div className='about-techstack'>
                 <img src={ TECHNOLOGIES.JavaLogo } 

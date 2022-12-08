@@ -13,7 +13,7 @@ export default function StaffCard(props) {
       <div className='about-staff-img'></div>
       <div className='about-staff-context'>
         {/* Name and Status */}
-        <h3>{props.name}</h3>
+        <a href={props.url} target='_blank'><h3>{props.name}</h3></a>
         <h4>{props.status}</h4>
         {/* Class and Major */}
         <div>
@@ -26,6 +26,7 @@ export default function StaffCard(props) {
 }
 
 StaffCard.propTypes = {
+  url: PropTypes.string,
   name: PropTypes.string.isRequired,
   status: PropTypes.string.isRequired,
   major: PropTypes.string.isRequired,

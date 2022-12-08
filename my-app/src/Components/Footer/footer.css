@@ -4,9 +4,12 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   font-family: 'Source Sans Pro',sans-serif;
-  margin-top: 2rem;
+  margin-top: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  border-top: 4px #2B2D42 solid;
 }
 footer > div {
   display: flex;
@@ -30,5 +33,15 @@ footer > div  a {
 
 /* Footer Logos */
 .footer-logos {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  height: 12rem;
   width: 12%;
+}
+.footer-logos > button {
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
 }

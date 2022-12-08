@@ -11,12 +11,10 @@ function TeamPage() {
      </div>
      <div className="team-bg">
       <div className='App'>
-        <div class="main-content">
-          <h1>d</h1>
+        <div class="main-content-topic">
           <div>
-
+            
           </div>
-          <h1>Teams Page!</h1>
         </div>
       </div>
      </div>
