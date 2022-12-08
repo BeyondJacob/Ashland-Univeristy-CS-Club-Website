@@ -7,22 +7,22 @@ class TopNav extends React.Component {
       return (
         <>
           <header>
+            <img className='header-logo' src="Assets/Logos/AU/AULogo.svg" alt="Ashland University" />
             <nav>
               <ul>
-                <li>
+                <li className='nav-reg'>
                   <Link to="/Home">Home</Link>
                 </li>
-                <li>
-                  {/* Purposely broken for demo */}
-                  <Link to="/Abouts">About Us</Link>
+                <li className='nav-reg'>
+                  <Link to="/About">About Us</Link>
                 </li>
-                <li>
+                <li className='nav-reg'>
                   <Link to="/Teams">Teams</Link>
                 </li>
-                <li>
+                <li className='nav-reg'>
                   <Link to="/Portfolio">Portfolio</Link>
                 </li>
-                <li>
+                <li className='nav-join'>
                   <Link to="/Join">Join</Link>
                 </li>
               </ul>

@@ -2,3 +2,80 @@
   margin: 0 auto;
   width: 75%;
 }
+
+/* Organization */
+.about-staf-rows {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* Faculty Card */
+.about-staffcard-faculty {
+  display: flex;
+  flex-direction: r;
+  margin-top: 3rem;
+  width: 100%;
+}
+.about-staffcard-content-faculty {
+  padding-left: 2rem;
+  bottom: 1rem;
+}
+
+
+/* Staff Card Additions */
+.about-staffcard {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+.about-img-placeholder {
+  margin: auto 0;
+  background-color: #460e65;
+  width: 200px;
+  height: 200px;
+  border-radius: 14px;
+}
+.about-staffcard-content {
+  padding-left: 1rem;
+  padding-bottom: 0.6rem;
+}
+.about-techstack {
+  display: flex;
+  flex-direction: row;
+}
+.about-techstack > img {
+  padding-right: 1rem;
+}
+
+
+/* Ashland Promise Section */
+.about-one-section{
+  background-color: #460e65;
+  padding-bottom: 3rem;
+}
+
+.about-img-aupromise {
+  margin: 0 auto;
+  max-width: 80%;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.about-yt {
+  border: white;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 16px;
+  padding: 20px;
+}
+
+.about-yt-video {
+  max-height: 100%;
+  max-width: 100%;
+  width: 100%;
+  border-radius: 12px;
+}

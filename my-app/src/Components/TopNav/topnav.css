@@ -4,12 +4,21 @@ header {
   flex-direction: row;
   font-family: 'Source Sans Pro',sans-serif;
   justify-content: space-between;
-  margin-bottom: 2rem;
+  padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 /* Header Logo */
 .header-logo {
-  width: 50%;
+  width: 10%;
+  left: 0;
+  background-color: #000;
+}
+
+img {
+    color: #000;
 }
 
 /* Navigation Props */
@@ -19,15 +28,72 @@ nav {
 }
 
 /* Navigation Links */
-nav > ul {
+nav ul {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  list-style-type: none;
 }
-nav > ul > a {
-  color: black;
-  font-size: 20px;
-  font-weight: 700;
+
+.nav-reg li:hover a::before {
+  right: 0;
+  left: 0;
+}
+
+nav ul a {
+  position: relative;
+  color: #000;
   text-decoration: none;
-  cursor: pointer;
+  font-weight: bolder;
+  font-size: 18px;
+  padding-bottom: 5px;
+}
+
+nav ul a:hover {
+  color: #522E91;
+  transition: ease-in-out 300ms;
+}
+
+.nav-reg a::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 50;
+  right: 50;
+  background-color: #522E91;
+  transform: scaleX(0);
+  transition: transform 300ms ease;
+}
+
+.nav-reg a:hover::before {
+  transform: scaleX(1);
+}
+
+/* Join Button Styling */
+.nav-join a{
+  border: #000000;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: all 300ms ease-in-out;
+}
+
+.nav-join a:hover{
+  background-color: #522E91;
+  color: white;
+  border: #522E91;
+  border-style: solid;
+  border-width: 4px;
+  border-radius: 12px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 300ms ease-in-out;
+  
 }

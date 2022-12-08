@@ -5,13 +5,25 @@ import TopNav from '../../Components/TopNav';
 
 function TeamPage() {
   return (
-    <div className="App">
+    <>     
+     <div className='App'>
       <TopNav />
-      <div class="main-content">
-        <h1>Teams Page!</h1>
+     </div>
+     <div className="team-bg">
+      <div className='App'>
+        <div class="main-content">
+          <h1>d</h1>
+          <div>
+
+          </div>
+          <h1>Teams Page!</h1>
+        </div>
       </div>
+     </div>
+     <div className='App'>
       <Footer />
-    </div>
+     </div>
+    </>
   );
 }
 

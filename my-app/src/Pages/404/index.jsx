@@ -11,7 +11,7 @@ const NoPage = () => {
         <div class="main-content">
           <h1>404</h1>
           <h2>The page you discovered, doesn't exist or is under construction!</h2>
-          <p>Let us know about this error in our <a href='https://discord.gg/VnRnU5MKmw'>Discord</a>!</p>
+          <p>Let us know about this error in our <a className='discordLink' href='https://discord.gg/VnRnU5MKmw' target='_blank'>Discord</a>!</p>
         </div>
         <Footer />
       </div>

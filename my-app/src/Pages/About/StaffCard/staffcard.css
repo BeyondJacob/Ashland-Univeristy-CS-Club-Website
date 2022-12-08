@@ -1,0 +1,21 @@
+/* Members Section */
+.staff-img {
+  background-color: brown;
+  height: 100%;
+  width: 200px;
+}
+.staff {
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+  width: 50%;
+}
+.staff-context {
+  padding-left: 2.5rem;
+}
+.staff-techstack {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-evenly;
+}

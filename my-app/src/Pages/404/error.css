@@ -1,13 +1,22 @@
 .main-content {
   border: 4px rgba(0, 0, 0, 0.181);
   border-style: solid;
-  padding: 3rem;
+  padding: 4rem;
   border-radius: 20px;
 }
-
 
 /* Discord Link Styling */
 div > div > p > a {
   cursor: pointer;
   text-decoration: none;
+}
+
+.discordLink {
+  transition: all ease-in-out 250ms;
+  color: gray;
+  font-weight: bold;
+}
+
+.discordLink:hover {
+  color: lightgray;
 }
